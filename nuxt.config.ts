@@ -29,7 +29,7 @@ export default defineNuxtConfig({
   ],
   runtimeConfig: {
     public: {
-      CRPYTO_BOT_TOKEN: process.env.CRYPTO_BOT_TOKEN,
+      CRPYTO_BOT_TOKEN: process.env.NUXT_PUBLIC_CRYPTO_BOT_TOKEN,
       baseUrl: process.env.NUXT_PUBLIC_BASE_URL
     }
   }

@@ -9,10 +9,10 @@ const invoiceUserMap: Record<string, string> = globalThis.invoiceUserMap || (glo
 const proUsers: Record<string, boolean> = globalThis.proUsers || (globalThis.proUsers = {});
 
 export default defineEventHandler(async (event) => {
-  const token = process.env.CRYPTO_BOT_TOKEN
+  const token = process.env.NUXT_PUBLIC_CRYPTO_BOT_TOKEN
 
   if (!token) {
-    throw createError({ statusCode: 500, statusMessage: 'CRYPTO_BOT_TOKEN не задан в .env' })
+    throw createError({ statusCode: 500, statusMessage: 'NUXT_PUBLIC_CRYPTO_BOT_TOKEN не задан в .env' })
   }
 
   try {

@@ -12,7 +12,7 @@ export default defineEventHandler(async (event) => {
   const token = config.public.CRPYTO_BOT_TOKEN
 
   if (!token) {
-    throw createError({ statusCode: 500, statusMessage: 'CRYPTO_BOT_TOKEN не задан в .env' })
+    throw createError({ statusCode: 500, statusMessage: 'NUXT_PUBLIC_CRYPTO_BOT_TOKEN не задан в .env' })
   }
 
   // Получаем userToken из тела запроса

@@ -45,7 +45,7 @@ ${pdfText}
 Ответ верни в формате JSON с полями: weaknesses, tips, improved, html.
   `.trim()
 
-  const apiKey = process.env.GEMINI_API_KEY
+  const apiKey = process.env.NUXT_PUBLIC_GEMINI_API_KEY
   if (!apiKey) {
     throw createError({ statusCode: 500, statusMessage: 'GEMINI_API_KEY не задан в .env' })
   }
