@@ -32,10 +32,9 @@ import { type IDropdownList } from '~/types/form';
 import { type INavLinks } from '~/types/helpers';
 import type { RouterPaths } from '~/types/router';
 
-const { $router } = useNuxtApp()
 
 const selectedMovieType = ref<IDropdownList>()
-const onClickOption = (val: RouterPaths) => $router.push({name: val})
+const onClickOption = (val: RouterPaths) => useRouter().push({name: val})
 
 const navLinks = ref<INavLinks[]>([
     {

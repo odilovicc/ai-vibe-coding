@@ -1,5 +1,5 @@
 <template>
-  <AppNavbar></AppNavbar>
+  <!-- <AppNavbar></AppNavbar> -->
   <slot />
 </template>
 <!-- <script setup lang="ts">
