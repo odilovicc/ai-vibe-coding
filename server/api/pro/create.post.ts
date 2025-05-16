@@ -24,7 +24,7 @@ export default defineEventHandler(async (event) => {
 
   try {
     // Создаем инвойс в Crypto Bot (тестовый endpoint)
-    const response = await fetch('https://testnet-pay.crypt.bot/api/createInvoice', {
+    const response = await fetch('https://pay.crypt.bot/api/createInvoice', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

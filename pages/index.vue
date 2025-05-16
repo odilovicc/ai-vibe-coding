@@ -231,7 +231,7 @@
       </div>
     </main>
     <!-- Footer -->
-    <footer class="w-full text-center text-gray-400 text-xs py-8 mt-8">Создано с ❤️ в Cursor + OpenAI</footer>
+    <footer class="w-full text-center text-gray-400 text-xs py-8 mt-8">Создано с ❤️ от Бахти</footer>
   </div>
 </template>
 
