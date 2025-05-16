@@ -2,11 +2,11 @@
   <div class="min-h-screen bg-gradient-to-br from-[#f8f9fb] via-[#e9eafc] to-[#f3f7fa] font-[Inter] antialiased flex flex-col relative overflow-x-hidden">
     <!-- SVG иллюстрации -->
     <div class="absolute inset-0 overflow-hidden pointer-events-none select-none">
-      <img src="/images/resume-bg.svg" class="absolute left-0 top-0 w-64 opacity-20 hidden md:block animate-fade-in" style="z-index:0;" alt="resume-illustration" />
-      <img src="/images/cv-bg.svg" class="absolute right-0 bottom-0 w-72 opacity-20 hidden md:block animate-fade-in" style="z-index:0;" alt="cv-illustration" />
+      <img src="/images/resume-bg.svg" class="absolute left-0 top-0 w-48 md:w-64 opacity-20 hidden md:block animate-fade-in" style="z-index:0;" alt="resume-illustration" />
+      <img src="/images/cv-bg.svg" class="absolute right-0 bottom-0 w-56 md:w-72 opacity-20 hidden md:block animate-fade-in" style="z-index:0;" alt="cv-illustration" />
     </div>
     <!-- Hero -->
-    <header class="w-full py-1 px-4 sm:px-0 flex flex-col items-center animate-fade-in">
+    <header class="w-full py-12 px-4 sm:px-0 flex flex-col items-center animate-fade-in">
       <div class="max-w-2xl w-full text-center mx-auto">
         <h1 class="text-4xl sm:text-5xl font-bold text-gray-900 mb-4 tracking-tight">Улучшите своё резюме с помощью ИИ</h1>
         <p class="text-lg text-gray-500 mb-4">Загрузите PDF — получите аналитику и улучшения под нужную профессию</p>
@@ -621,7 +621,7 @@ body {
   to { opacity: 1; }
 }
 .animate-fade-in {
-  animation: fade-in 1s ease;
+  animation: fade-in 1s ease forwards;
 }
 @keyframes slide-up {
   from { opacity: 0; transform: translateY(40px); }
