@@ -33,7 +33,12 @@ export default <RouterConfig>{
                         name: RouterPaths.REGISTER,
                     }
                 ]
-            }
+            },
+            {
+                path: '/pro/success',
+                name: RouterPaths.PRO_SUCCESS,
+                component: () => import('~/pages/pro/success.vue'),
+              }              
         ];
     }
 }

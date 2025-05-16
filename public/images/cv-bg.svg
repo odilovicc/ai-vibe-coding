@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="800px" viewBox="0 0 800 800" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M0,0 L800,0 L800,800 L0,800 Z" fill="#F3F4FF" fill-rule="nonzero"/>
+        <path d="M0,0 L800,800" stroke="#E9EAFD" stroke-width="4"/>
+        <path d="M800,0 L0,800" stroke="#E9EAFD" stroke-width="4"/>
+        <circle fill="#E9EAFD" cx="400" cy="400" r="200"/>
+        <circle fill="#F3F4FF" cx="400" cy="400" r="150"/>
+        <circle fill="#E9EAFD" cx="400" cy="400" r="100"/>
+        <circle fill="#F3F4FF" cx="400" cy="400" r="50"/>
+    </g>
+</svg> 

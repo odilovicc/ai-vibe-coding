@@ -26,5 +26,11 @@ export default defineNuxtConfig({
       path: "~/components",
       pathPrefix: false
     }
-  ]
+  ],
+  runtimeConfig: {
+    public: {
+      CRPYTO_BOT_TOKEN: process.env.CRYPTO_BOT_TOKEN,
+      baseUrl: process.env.NUXT_PUBLIC_BASE_URL
+    }
+  }
 })
